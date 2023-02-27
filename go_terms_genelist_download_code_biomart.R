@@ -14,7 +14,6 @@ write.csv(ox_stress,file="ox_stress.csv")
 cell_stress<-getBM(mart = mart_zf,filter = "go_parent_name",values = "cellular response to stress",attributes = c("ensembl_gene_id","external_gene_name"), uniqueRows = TRUE)
 write.csv(cell_stress,file="cell_stress.csv")
 
-
 carb_biosynth<-getBM(mart = mart_zf,filter = "go_parent_name",values = "carbohydrate derivative biosynthetic process",attributes = c("ensembl_gene_id","external_gene_name"), uniqueRows = TRUE)
 write.csv(carb_biosynth,file="carb_biosynth.csv")
 
@@ -26,17 +25,3 @@ write.csv(prot_fold,file="prot_fold.csv")
 
 erad<-getBM(mart = mart_zf,filter = "go_parent_name",values = "ERAD pathway",attributes = c("ensembl_gene_id","external_gene_name"), uniqueRows = TRUE)
 write.csv(erad,file="erad.csv")
-
-
-er_upr<-getBM(mart = mart_zf,filter = "go_parent_name",values = "endoplasmic reticulum unfolded protein response",attributes = c("ensembl_gene_id","external_gene_name"), uniqueRows = TRUE)
-write.csv(er_upr,file="er_upr.csv")
-
-er_upr<-getBM(mart = mart_zf,filter = "go_parent_name",values = "endoplasmic reticulum unfolded protein response",attributes = c("ensembl_gene_id","external_gene_name"), uniqueRows = TRUE)
-write.csv(er_upr,file="er_upr.csv")
-
-
-
-
-
-
-
