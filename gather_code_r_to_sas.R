@@ -1,5 +1,5 @@
 
-norm_data<-as.data.frame(norm_counts_5dpf_forSAS)
+norm_data<-as.data.frame(norm_counts_forSAS)
 library(tidyr)
 library(dplyr)
 norm_data_df<-as.data.frame(norm_data)
