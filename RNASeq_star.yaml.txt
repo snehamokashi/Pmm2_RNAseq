@@ -1,0 +1,6 @@
+SOURCE: /data/Palmetto_sync/Novaseq/FASTQ/GGC_pmm2_SM_4-13-2022
+EXT: "_001.fastq.gz"
+DEST: /data/ggc/flanagansteet_lab/smokash/PMM2_RNAseq/cdg_pmm2
+RNAREF: /data/databases/rrna_silva/ribokmers.fa
+STARDB: /data/databases/d_rer/grcz11/ncbi/indexed/star
+GTFGSNAP: /data/databases/d_rer/grcz11/ncbi/GCF_000002035.6_GRCz11_genomic.gtf
