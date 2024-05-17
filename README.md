@@ -27,7 +27,6 @@ This repository contains scripts and data files related to RNA sequencing analys
 
 #### Differential Expression Analysis
 - `pmm2_5dpf.R`: R script for analyzing Pmm2 gene expression at 5 days post fertilization.
-- `pmm2_6dpf.R`: R script for analyzing Pmm2 gene expression at 6 days post fertilization.
 - `pmm2_8dpf.R`: R script for analyzing Pmm2 gene expression at 8 days post fertilization.
 
 #### Functional Enrichment Analysis
@@ -36,5 +35,4 @@ This repository contains scripts and data files related to RNA sequencing analys
 
 ### Data
 - `combined_counts_5dpf.txt`: RNA sequencing counts data at 5 days post fertilization.
-- `combined_counts_6dpf.txt`: RNA sequencing counts data at 6 days post fertilization.
 - `combined_counts_8dpf.txt`: RNA sequencing counts data at 8 days post fertilization.
